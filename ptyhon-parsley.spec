@@ -1,6 +1,6 @@
 %define	oname	Parsley
 
-Name:		python-parsley
+Name:		python2-parsley
 Version:	1.2
 Release:	1
 Summary:	Parsing and pattern matching made easy
