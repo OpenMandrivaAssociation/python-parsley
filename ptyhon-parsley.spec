@@ -8,7 +8,7 @@ Source0:	http://pypi.python.org/packages/source/P/%{oname}/%{oname}-%{version}.t
 License:	MIT
 Group:		Development/Python
 Url:		http://launchpad.net/parsley
-BuildRequires:	python2egg(setuptools)
+BuildRequires:	python2-setuptools
 
 BuildArch:	noarch
 
