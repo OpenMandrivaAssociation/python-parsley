@@ -8,7 +8,7 @@ Source0:	http://pypi.python.org/packages/source/P/%{oname}/%{oname}-%{version}.t
 License:	MIT
 Group:		Development/Python
 Url:		http://launchpad.net/parsley
-BuildRequires:	pythonegg(setuptools)
+BuildRequires:	python2egg(setuptools)
 
 BuildArch:	noarch
 
@@ -37,18 +37,18 @@ http://www.vpri.org/pdf/tr2008003_experimenting.pdf.
 %setup -q -n %{oname}-%{version}
 
 %build
-python setup.py build
+python2 setup.py build
 
 %install
-python setup.py install --root=%{buildroot}
+python2 setup.py install --root=%{buildroot}
 
 %files
 %doc README
-%{py_puresitedir}/ometa/*.py*
-%{py_puresitedir}/ometa/_generated/*.py*
-%{py_puresitedir}/ometa/test/*.py*
-%{py_puresitedir}/parsley.py*
-%{py_puresitedir}/terml/*.py*
-%{py_puresitedir}/terml/_generated/*.py*
-%{py_puresitedir}/terml/test/*.py*
-%{py_puresitedir}/Parsley*.egg-info
+%{py2_puresitedir}/ometa/*.py*
+%{py2_puresitedir}/ometa/_generated/*.py*
+%{py2_puresitedir}/ometa/test/*.py*
+%{py2_puresitedir}/parsley.py*
+%{py2_puresitedir}/terml/*.py*
+%{py2_puresitedir}/terml/_generated/*.py*
+%{py2_puresitedir}/terml/test/*.py*
+%{py2_puresitedir}/Parsley*.egg-info
