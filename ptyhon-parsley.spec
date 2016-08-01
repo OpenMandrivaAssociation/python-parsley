@@ -2,13 +2,14 @@
 
 Name:		python2-parsley
 Version:	1.2
-Release:	2
+Release:	3
 Summary:	Parsing and pattern matching made easy
 Source0:	http://pypi.python.org/packages/source/P/%{oname}/%{oname}-%{version}.tar.gz
 License:	MIT
 Group:		Development/Python
 Url:		http://launchpad.net/parsley
 BuildRequires:	python2-setuptools
+%rename		python-parsley
 
 BuildArch:	noarch
 
