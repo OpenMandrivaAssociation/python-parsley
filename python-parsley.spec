@@ -1,10 +1,10 @@
 %define	oname	Parsley
 
 Name:		python2-parsley
-Version:	1.2
-Release:	3
+Version:	1.3
+Release:	1
 Summary:	Parsing and pattern matching made easy
-Source0:	http://pypi.python.org/packages/source/P/%{oname}/%{oname}-%{version}.tar.gz
+Source0:	https://files.pythonhosted.org/packages/06/52/cac2f9e78c26cff8bb518bdb4f2b5a0c7058dec7a62087ed48fe87478ef0/Parsley-1.3.tar.gz
 License:	MIT
 Group:		Development/Python
 Url:		http://launchpad.net/parsley
