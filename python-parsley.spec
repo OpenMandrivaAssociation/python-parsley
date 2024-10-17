@@ -7,7 +7,7 @@ Summary:	Parsing and pattern matching made easy
 Source0:	https://files.pythonhosted.org/packages/06/52/cac2f9e78c26cff8bb518bdb4f2b5a0c7058dec7a62087ed48fe87478ef0/Parsley-1.3.tar.gz
 License:	MIT
 Group:		Development/Python
-Url:		http://launchpad.net/parsley
+Url:		https://launchpad.net/parsley
 BuildRequires:	python2-setuptools
 %rename		python-parsley
 
